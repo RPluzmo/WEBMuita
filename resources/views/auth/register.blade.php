@@ -1,5 +1,5 @@
 <x-layout>
-    <x-slot:title>Reģistrācija | RHL Systems</x-slot:title>
+    <x-slot:title>Reģistrēties</x-slot:title>
 
     <div class="auth-wrapper">
         <div class="auth-card" style="max-width: 500px;">
@@ -33,6 +33,11 @@
 
                 <div class="auth-footer">
                     <a href="{{ route('login') }}" style="color: #9e9e9e; text-decoration: none;">Varbūt jums tomēr ir lietotājprofils? <strong style="color: var(--dhl-red);">Ienākt</strong></a>
+                </div>
+                <div>
+                    <p><i>Piezīmīte par login</i> - jaunam izveidotam lietotājam piešķirsies epasts no user601(ieskaitot) tātad lai ielogotus jums būtu jāraksta:</p>
+                    <p>pie epasta - <b>user601@RHL.lv</b></p>
+                </div>
                 </div>
             </form>
         </div>

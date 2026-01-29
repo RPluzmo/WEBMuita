@@ -14,7 +14,7 @@
             <a href="{{ route('admin.users') }}" class="dhl-btn">PĀRVALDĪT LIETOTĀJUS</a>
         </div>
         
-        <form action="{{ route('dashboard') }}" method="GET" class="filter">
+        <form action="{{ route('dashboard') }}" method="GET" class="dhl-filter-bar">
             <input type="text" name="search" placeholder="Meklē kravu kā - case-000001" value="{{ request('search') }}" class="dhl-form-control">
             
             <select name="status" class="dhl-form-control">

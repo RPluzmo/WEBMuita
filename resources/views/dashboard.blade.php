@@ -9,6 +9,7 @@
                 <input type="text" name="case_id" placeholder="Piemēram: case-000001" required class="tracking-search-field">
                 <button type="submit" class="dhl-btn">MEKLĒT</button>
             </form>
+            <p>piezīmīte - Ja jūs esat ielādējis projektu un nekas netiek attēlots terminālī ir jāizpilda <b>php artisan api</b> kas ievietos datus no api mysql datubāzē.</p>
         </div>
 
         @if(isset($search_result))

@@ -1,5 +1,5 @@
 <x-layout>
-    <x-slot:title>Ienākt | RHL Systems</x-slot:title>
+    <x-slot:title>Ienākt</x-slot:title>
 
     <div class="auth-wrapper">
         <div class="auth-card">
@@ -31,6 +31,15 @@
 
             <div class="auth-footer">
                 <p>Nav konta? <a href="{{ route('register') }}" style="color: var(--dhl-red); font-weight: bold; text-decoration: none;">Reģistrējies šeit</a></p>
+            </div>
+            <div>
+                <h3>Piezīmīte</h3>
+                <p>lai ielogotos kādā no 600 lietotājiem no api - epasta adrese būs <b>"user1@RHL.lv"</b> un parole ir <b>"qwe"</b> ikkatram</p>
+                <p>var izmēģināt lietotājus kā:</p>
+                <p><b>user1@RHL.lv</b> - analītiķis</p>
+                <p><b>user2@RHL.lv</b> - adminstrātors</p>
+                <p><b>user3@RHL.lv</b> - inspektors</p>
+                <p><b>user5@RHL.lv</b> - broker(is)</p>
             </div>
         </div>
     </div>
